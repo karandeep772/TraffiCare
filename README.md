@@ -55,9 +55,8 @@ TraffiCare is a smart traffic management system designed to optimize urban traff
       pip install -r requirements.txt
 4. Set Up Hardware:
    Connect microcontrollers, cameras, and sensors as per the circuit diagram in docs/hardware_setup.md.
-5. Configure the Database:
-   Set up a MySQL or MongoDB database and update the connection details in config.json.
-6. Run the Application:
+
+5. Run the Application:
    Start the backend server:
    ```bash
    python Main.py
