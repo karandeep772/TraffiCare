@@ -51,13 +51,13 @@ TraffiCare is a smart traffic management system designed to optimize urban traff
 
 2. Install Dependencies:
       For Python:
-      bash: pip install -r requirements.txt
-   For Node.js:
-      bash: npm install
-3. Set Up Hardware:
+      ```bash
+      pip install -r requirements.txt
+4. Set Up Hardware:
    Connect microcontrollers, cameras, and sensors as per the circuit diagram in docs/hardware_setup.md.
-4. Configure the Database:
+5. Configure the Database:
    Set up a MySQL or MongoDB database and update the connection details in config.json.
-5. Run the Application:
+6. Run the Application:
    Start the backend server:
-   bash: python Main.py
+   ```bash
+   python Main.py
